@@ -41,5 +41,5 @@ test("Put/actors/:id", async() =>{
 test ("Delete/actors/:id", async () => {
     const res = await request(app).delete('/actors/'+id);
     expect(res.status).toBe(204);
-    //vale
+
 });
